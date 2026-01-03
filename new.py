@@ -22,8 +22,8 @@ FACE_THRESHOLD = 0.8   # cosine similarity threshold (higher = stricter). Tune t
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Telegram (keep them secret in real projects)
-TELEGRAM_TOKEN = "7223753160:AAG5vJGFf00GvULe4VNUwl3vUnTnUtnTpzA"
-CHAT_ID = "1147795607"
+TELEGRAM_TOKEN = "Your_bot_token" 
+CHAT_ID = "Your_Chat_ID"
 
 # Make sure required folders exist
 os.makedirs(SNAP_DIR, exist_ok=True)
